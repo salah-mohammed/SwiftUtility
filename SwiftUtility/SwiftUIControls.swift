@@ -52,8 +52,8 @@ public struct Anything<Wrapper : UIView>: UIViewRepresentable {
 }
 @available(iOS 13.0, *)
 public struct RotatingForeverView: View {
-  @State private var isRotating = 0.0
-  @State private var duration = 3.5
+  @State  var isRotating = 0.0
+  @State  var duration = 3.5
 
    var subView:()->AnyView
     
